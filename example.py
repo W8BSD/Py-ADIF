@@ -7,12 +7,12 @@ log = ADIF_log('Py-ADIF Example')
 entry = log.newEntry()
 
 # New entry from K6BSD to WD1CKS
-entry['OPERATOR'] = 'K6BSD'
-entry['CALL'] = 'WD1CKS'
-entry['QSO_DATE']=datetime.datetime.now().strftime('%Y%m%d')
-entry['BAND']='20M'
-entry['MODE']='PSK'
-entry['SUBMODE']='PSK31'
+entry['OPerator'] = 'K6BSD'
+entry['Call'] = 'WD1CKS'
+entry['QSO_Date']=datetime.datetime.now().strftime('%Y%m%d')
+entry['baNd']='20M'
+entry['mODe']='PSK'
+entry['SubMode']='PSK31'
 entry['TIME_ON']=datetime.datetime.now().strftime('%H%M')
 
 # Write to example.adif
