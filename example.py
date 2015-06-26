@@ -31,7 +31,7 @@ print newlog[0]['CALL'],' band: ',newlog[0]['BAND']
 
 # Read example.adx back...
 newlog = ADIF_log('Py-ADIF Example', file='example.adx')
-print newlog[0]['CALL'],' band: ',newlog[0]['BAND']
+print newlog[0]['call'],' band: ',newlog[0]['band']
 
 # Clean up... nothing interesting here...
 os.remove('example.adif')
