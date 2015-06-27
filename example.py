@@ -16,6 +16,7 @@ entry['baNd']='20M'
 entry['mODe']='PSK'
 entry['SubMode']='PSK31'
 entry['TIME_ON']=datetime.datetime.now().strftime('%H%M')
+entry['comment_intl']=u'Testing... \xb0'
 
 # Write to example.adif
 f = open('example.adif', 'wt')
