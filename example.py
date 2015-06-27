@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from ADIF_log import ADIF_log
 import datetime
 import os
